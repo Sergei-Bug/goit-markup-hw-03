@@ -1,0 +1,237 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+:root {
+  --color-primary: #4d5ae5;
+  --color-secondary: #404bbf;
+  --dark: #2e2f42;
+  --color-text: #434455;
+  --color-subtitle-text: #8e8f99;
+  --accent: #e7e9fc;
+  --light: #f4f4fd;
+  --white: #ffffff;
+}
+
+body {
+  background-color: var(--white);
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  color: var(--dark);
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/* header */
+
+ul {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.logo-ws {
+  color: var(--color-primary);
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-ws-dark {
+  color: var(--dark);
+}
+
+.logo-ws-light {
+  color: var(--light);
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--dark);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.link-address {
+  color: var(--color-text);
+  font-style: normal;
+  line-height: 1.5;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+
+.link:hover,
+.link:focus {
+  text-decoration: none;
+  color: var(--color-secondary);
+}
+
+/* footer */
+
+.page-footer {
+  background-color: var(--dark);
+}
+
+.ft-p {
+  color: var(--accent);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* Hero section */
+
+.hero {
+  background-color: var(--dark);
+}
+
+.hero-title {
+  color: var(--white);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+.btn-hero {
+  font-family: inherit;
+  color: var(--white);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background: var(--color-primary);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-hero:hover,
+.btn-hero:focus {
+  background: var(--color-secondary);
+}
+
+/* section-second */
+
+.title-second-section {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.text-second-section {
+  color: var(--color-text);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* section-third */
+
+.title-third-section {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+}
+
+.img-third-section {
+  border: 1px solid var(--accent);
+}
+
+/* fourth-section */
+
+.fourth-section {
+  background-color: var(--light);
+}
+
+.title-fourth-section {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.card {
+  background: var(--white);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.title-card {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.text-fourth-section {
+  color: var(--color-text);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* portfolio */
+
+.filter-btn {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-primary);
+  background: var(--light);
+  border: 1px solid var(--accent);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--white);
+  background-color: var(--color-secondary);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.link-filter {
+  text-decoration: none;
+}
+
+.title-link-filter {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--dark);
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.text-link-filter {
+  color: var(--color-text);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
