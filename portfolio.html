@@ -9,165 +9,186 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header class="page-header">
-      <nav>
-        <a href="./index.html" class="logo-ws"
-          >Web<span class="logo-ws-dark">Studio</span></a
-        >
-        <ul class="list-nav">
-          <li><a class="nav-link link" href="./index.html">Studio</a></li>
-          <li><a class="nav-link link" href="">Portfolio</a></li>
-          <li><a class="nav-link link" href="">Contacts</a></li>
-        </ul>
-      </nav>
-      <address class="page-address">
-        <ul class="list-address">
-          <li>
-            <a href="mailto:info@devstudio.com" class="link-address link"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+11(000)1111111" class="link-address link"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="container container-header">
+        <nav class="nav-header">
+          <a href="./index.html" class="logo-ws"
+            >Web<span class="logo-ws-dark">Studio</span></a
+          >
+          <ul class="list-nav list">
+            <li class="item">
+              <a class="nav-link link" href="./index.html">Studio</a>
+            </li>
+            <li class="item">
+              <a class="nav-link link" href="">Portfolio</a>
+            </li>
+            <li class="item">
+              <a class="nav-link link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="page-address">
+          <ul class="list-address list">
+            <li class="item">
+              <a href="mailto:info@devstudio.com" class="link-address link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="item">
+              <a href="tel:+11(000)1111111" class="link-address link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
-      <section>
-        <h1 class="visually-hidden">Portfolio</h1>
-        <ul>
-          <li><button class="filter-btn" type="button">All</button></li>
-          <li><button class="filter-btn" type="button">Web Site</button></li>
-          <li><button class="filter-btn" type="button">App</button></li>
-          <li><button class="filter-btn" type="button">Design</button></li>
-          <li><button class="filter-btn" type="button">Marketing</button></li>
-        </ul>
-        <ul class="list-filters">
-          <li class="portfolio">
-            <a href="" class="link-filter">
-              <img
-                src="./images/portfolio/bankingapp.jpg"
-                width="360"
-                height="300"
-                alt="bankapp"
-              />
-              <h2 class="title-link-filter">Banking App Interface Concept</h2>
-              <p class="text-link-filter">App</p>
-            </a>
-          </li>
-          <li class="portfolio">
-            <a href="" class="link-filter">
-              <img
-                src="./images/portfolio/payment.jpg"
-                width="360"
-                height="300"
-                alt="cashpay"
-              />
-              <h2 class="title-link-filter">Cashless Payment</h2>
-              <p class="text-link-filter">Marketing</p>
-            </a>
-          </li>
-          <li class="portfolio">
-            <a href="" class="link-filter">
-              <img
-                src="./images/portfolio/meditationapp.jpg"
-                width="360"
-                height="300"
-                alt="meditationapp"
-              />
-              <h2 class="title-link-filter">Meditaion App</h2>
-              <p class="text-link-filter">App</p>
-            </a>
-          </li>
-          <li class="portfolio">
-            <a href="" class="link-filter">
-              <img
-                src="./images/portfolio/taxiservice.jpg"
-                width="360"
-                height="300"
-                alt="taxi"
-              />
-              <h2 class="title-link-filter">Taxi Service</h2>
-              <p class="text-link-filter">Marketing</p>
-            </a>
-          </li>
-          <li class="portfolio">
-            <a href="" class="link-filter">
-              <img
-                src="./images/portfolio/screenillustr.jpg"
-                width="360"
-                height="300"
-                alt="screen"
-              />
-              <h2 class="title-link-filter">Screen Illustrations</h2>
-              <p class="text-link-filter">Design</p>
-            </a>
-          </li>
-          <li class="portfolio">
-            <a href="" class="link-filter">
-              <img
-                src="./images/portfolio/onlinecourses.jpg"
-                width="360"
-                height="300"
-                alt="onlinecourses"
-              />
-              <h2 class="title-link-filter">Online Courses</h2>
-              <p class="text-link-filter">Marketing</p>
-            </a>
-          </li>
-          <li class="portfolio">
-            <a href="" class="link-filter">
-              <img
-                src="./images/portfolio/instastories.jpg"
-                width="360"
-                height="300"
-                alt="insta"
-              />
-              <h2 class="title-link-filter">Instagram Stories Concept</h2>
-              <p class="text-link-filter">Design</p>
-            </a>
-          </li>
-          <li class="portfolio">
-            <a href="" class="link-filter">
-              <img
-                src="./images/portfolio/organicfood.jpg"
-                width="360"
-                height="300"
-                alt="organicfood"
-              />
-              <h2 class="title-link-filter">Organic Food</h2>
-              <p class="text-link-filter">Web Site</p>
-            </a>
-          </li>
-          <li class="portfolio">
-            <a href="" class="link-filter">
-              <img
-                src="./images/portfolio/freshcoffee.jpg"
-                width="360"
-                height="300"
-                alt="freshcoffee"
-              />
-              <h2 class="title-link-filter">Fresh Coffee</h2>
-              <p class="text-link-filter">Web Site</p>
-            </a>
-          </li>
-        </ul>
+      <section class="section">
+        <div class="container">
+          <h1 class="visually-hidden">Portfolio</h1>
+          <ul class="list">
+            <li><button class="filter-btn" type="button">All</button></li>
+            <li><button class="filter-btn" type="button">Web Site</button></li>
+            <li><button class="filter-btn" type="button">App</button></li>
+            <li><button class="filter-btn" type="button">Design</button></li>
+            <li><button class="filter-btn" type="button">Marketing</button></li>
+          </ul>
+          <ul class="list-filters list">
+            <li class="portfolio">
+              <a href="" class="link-filter">
+                <img
+                  src="./images/portfolio/bankingapp.jpg"
+                  width="360"
+                  height="300"
+                  alt="bankapp"
+                />
+                <h2 class="title-link-filter">Banking App Interface Concept</h2>
+                <p class="text-link-filter">App</p>
+              </a>
+            </li>
+            <li class="portfolio">
+              <a href="" class="link-filter">
+                <img
+                  src="./images/portfolio/payment.jpg"
+                  width="360"
+                  height="300"
+                  alt="cashpay"
+                />
+                <h2 class="title-link-filter">Cashless Payment</h2>
+                <p class="text-link-filter">Marketing</p>
+              </a>
+            </li>
+            <li class="portfolio">
+              <a href="" class="link-filter">
+                <img
+                  src="./images/portfolio/meditationapp.jpg"
+                  width="360"
+                  height="300"
+                  alt="meditationapp"
+                />
+                <h2 class="title-link-filter">Meditaion App</h2>
+                <p class="text-link-filter">App</p>
+              </a>
+            </li>
+            <li class="portfolio">
+              <a href="" class="link-filter">
+                <img
+                  src="./images/portfolio/taxiservice.jpg"
+                  width="360"
+                  height="300"
+                  alt="taxi"
+                />
+                <h2 class="title-link-filter">Taxi Service</h2>
+                <p class="text-link-filter">Marketing</p>
+              </a>
+            </li>
+            <li class="portfolio">
+              <a href="" class="link-filter">
+                <img
+                  src="./images/portfolio/screenillustr.jpg"
+                  width="360"
+                  height="300"
+                  alt="screen"
+                />
+                <h2 class="title-link-filter">Screen Illustrations</h2>
+                <p class="text-link-filter">Design</p>
+              </a>
+            </li>
+            <li class="portfolio">
+              <a href="" class="link-filter">
+                <img
+                  src="./images/portfolio/onlinecourses.jpg"
+                  width="360"
+                  height="300"
+                  alt="onlinecourses"
+                />
+                <h2 class="title-link-filter">Online Courses</h2>
+                <p class="text-link-filter">Marketing</p>
+              </a>
+            </li>
+            <li class="portfolio">
+              <a href="" class="link-filter">
+                <img
+                  src="./images/portfolio/instastories.jpg"
+                  width="360"
+                  height="300"
+                  alt="insta"
+                />
+                <h2 class="title-link-filter">Instagram Stories Concept</h2>
+                <p class="text-link-filter">Design</p>
+              </a>
+            </li>
+            <li class="portfolio">
+              <a href="" class="link-filter">
+                <img
+                  src="./images/portfolio/organicfood.jpg"
+                  width="360"
+                  height="300"
+                  alt="organicfood"
+                />
+                <h2 class="title-link-filter">Organic Food</h2>
+                <p class="text-link-filter">Web Site</p>
+              </a>
+            </li>
+            <li class="portfolio">
+              <a href="" class="link-filter">
+                <img
+                  src="./images/portfolio/freshcoffee.jpg"
+                  width="360"
+                  height="300"
+                  alt="freshcoffee"
+                />
+                <h2 class="title-link-filter">Fresh Coffee</h2>
+                <p class="text-link-filter">Web Site</p>
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="page-footer">
-      <a href="./index.html" class="logo-ws"
-        >Web<span class="logo-ws-light">Studio</span></a
-      >
-      <p class="ft-p">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+      <div class="container">
+        <div class="footer-summary">
+          <a href="./index.html" class="logo-ws footer-logo"
+            >Web<span class="logo-ws-light">Studio</span></a
+          >
+          <p class="ft-p">
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
