@@ -57,15 +57,15 @@ h6 {
 }
 
 ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
   list-style-type: none;
-  text-decoration: none;
 }
 
 /* header */
 
 .page-header {
-  max-width: 1440px;
-  margin: 0 auto;
   border-bottom: 1px solid var(--accent);
 }
 
@@ -75,10 +75,10 @@ ul {
 
 .nav-header {
   display: flex;
+  align-items: center;
 }
 
 .logo-ws {
-  padding-top: 24px;
   color: var(--color-primary);
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -119,6 +119,10 @@ ul {
   margin-left: auto;
 }
 
+.list-address {
+  display: flex;
+}
+
 .link-address {
   display: block;
   padding-top: 24px;
@@ -132,12 +136,6 @@ ul {
 
 .list-nav {
   margin-left: 76px;
-}
-
-.list {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding: 0;
   display: flex;
 }
 
@@ -154,10 +152,8 @@ ul {
 /* footer */
 
 .page-footer {
-  max-width: 1440px;
   padding-top: 100px;
   padding-bottom: 100px;
-  margin: 0 auto;
   background-color: var(--dark);
 }
 
@@ -224,7 +220,7 @@ ul {
 
 /* section-second */
 
-.text-container {
+.section-second {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -280,15 +276,15 @@ ul {
 }
 
 .img-third-section {
-  border: 1px solid var(--accent);
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 /* fourth-section */
 
 .fourth-section {
   background-color: var(--light);
-  max-width: 1440px;
-  margin: 0 auto;
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -308,6 +304,7 @@ ul {
 }
 
 .card {
+  padding-bottom: 32px;
   text-align: center;
   background: var(--white);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -332,7 +329,6 @@ ul {
 }
 
 .text-fourth-section {
-  margin-bottom: 32px;
   color: var(--color-text);
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -376,7 +372,7 @@ ul {
   background-color: var(--color-secondary);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  border: 1px solid transparent;
+  border-color: transparent;
 }
 
 .list-portfolio {
@@ -405,6 +401,12 @@ ul {
   border-left: 1px solid var(--accent);
   border-right: 1px solid var(--accent);
   border-bottom: 1px solid var(--accent);
+}
+
+.img-portfolio {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .link-filter {
